@@ -73,9 +73,13 @@ with open(filename, 'r') as file_object:
 #print(arr)
 
 df = pd.DataFrame(arr, columns=['Event',
-                                'OOB', 'DL', 'Data',
-                                'Timestamp', 'Lat', 
-                                'Lng', 'Radius',
+                                'OOB', 
+                                'DL', 
+                                'Data',
+                                'Timestamp', 
+                                'Lat', 
+                                'Lng', 
+                                'Radius',
                                 'Gmaps Link'])
     
 csvname = input('Save csv with name: ')
